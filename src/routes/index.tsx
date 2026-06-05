@@ -90,7 +90,7 @@ function SlidePuzzle() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-100 to-slate-300 dark:from-slate-900 dark:to-slate-800 flex items-center justify-center p-4 transition-colors">
+    <div className="min-h-screen bg-gradient-to-br from-violet-100 to-fuchsia-200 dark:from-violet-950 dark:to-fuchsia-900 flex items-center justify-center p-4 transition-colors">
       <div className="w-full max-w-md">
         <div className="text-center mb-6">
           <h1 className="text-4xl font-extrabold text-slate-800 dark:text-white tracking-tight">
@@ -141,8 +141,8 @@ function SlidePuzzle() {
                   className={`aspect-square rounded-xl text-2xl font-bold flex items-center justify-center transition-all duration-150 select-none
                     ${
                       tile === GOAL[index]
-                        ? 'bg-emerald-500 text-white'
-                        : 'bg-indigo-600 text-white'
+                        ? 'bg-fuchsia-500 text-white'
+                        : 'bg-violet-600 text-white'
                     }
                     ${movable ? 'hover:scale-105 hover:shadow-lg cursor-pointer' : 'cursor-default'}
                     shadow-md active:scale-95`}
@@ -168,7 +168,7 @@ function SlidePuzzle() {
 
         <button
           onClick={reset}
-          className="w-full mt-5 py-3 rounded-xl bg-slate-800 dark:bg-white text-white dark:text-slate-900 font-semibold shadow-md hover:shadow-xl hover:scale-[1.02] transition-all duration-200"
+          className="w-full mt-5 py-3 rounded-xl bg-violet-700 dark:bg-fuchsia-400 text-white dark:text-violet-950 font-semibold shadow-md hover:shadow-xl hover:scale-[1.02] transition-all duration-200"
         >
           {solved ? 'Play Again' : 'Shuffle / Reset'}
         </button>
