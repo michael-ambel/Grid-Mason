@@ -1,0 +1,18 @@
+{
+  "enabled": false,
+  "source": "en",
+  "languages": [],
+  "translations": {},
+  "pendingTranslations": {
+    "Time": "Time",
+    "Moves": "Moves",
+    "moves": "moves",
+    "Solved!": "Solved!",
+    "Play Again": "Play Again",
+    "Number Slide": "Number Slide",
+    "Shuffle / Reset": "Shuffle / Reset",
+    "Arrange the tiles from 1 to 8": "Arrange the tiles from 1 to 8"
+  },
+  "preservedKeys": [],
+  "preservedStore": {}
+}
